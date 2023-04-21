@@ -1,0 +1,21 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+div {
+    background-color: rgb(237, 234, 234);
+    padding-bottom: 3px;
+}
+
+h1 {
+    font-weight: normal;
+    padding: 21px;
+}
+p {
+    border: solid #34495e;
+    border-radius: 20px;
+    padding: 21px 60px 21px 60px;
+    margin: 21px;
+    background-color: #34495e;
+    color: white;
+}
