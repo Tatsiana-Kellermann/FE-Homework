@@ -1,0 +1,36 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    margin: 25px 10px;
+}
+
+ul {
+    margin-left: 70px;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+h2 {
+    margin: 25px 10px;
+    font-size: 2rem;
+    /*36px*/
+}
+
+table {
+    margin-left: 10px;
+}
+
+table, tr, td, th {
+    border: 2px solid black;
+    font-size: 25px;
+}
+
+thead {
+    font-weight: bold;
+    text-align: center;
+    font-size: 25px;
+}
