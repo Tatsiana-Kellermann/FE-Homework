@@ -1,0 +1,69 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin-top: 50px;
+}
+
+.form {
+    background-color: #34495E;
+    padding: 78px 150px;
+    margin: 0 auto;
+    width: 70%;
+    border-radius: 20px;
+}
+
+#user-form {
+    display: flex;
+    flex-direction: column;
+}
+
+#user-form > input {
+    padding: 30px 35px;
+    background-color: #D9D9D9;
+    font-size: 25px;
+    height: 50px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+#user-form > input::placeholder {
+    font-family: 'Inter', sans-serif;
+}
+
+#user-form > button {
+    height: 50px;
+    margin-top: 122px;
+    cursor: pointer;
+    background-color: #27AE60;
+    font-size: 25px;
+    font-family: 'Inter', sans-serif;
+    color: #fff;
+    border: none;
+}
+
+.users-container{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 70%;
+    margin-top: 70px;
+}
+
+.users-container > .user-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 60px;
+    background-color: #34495E;
+    border-radius: 20px;
+    font-size: 25px;
+    font-family: 'Inter', sans-serif;
+    color: #fff;
+}
+
+.users-container > .user-item:not(:last-child){
+    margin-bottom: 30px;
+}
