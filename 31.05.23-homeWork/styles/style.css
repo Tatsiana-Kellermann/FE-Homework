@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+p {
+    font-size: 22px;
+    font-weight: 200;
+    font-family: cursive;
+}
+
+div {
+    width: 800px;
+    height: 500px;
+    border: 1px solid black;
+    border-radius: 30px;
+    margin-top: 50px ;
+    margin: 40px auto;
+    padding: 20px 20px;
+}
+
+.geographical_position {
+    background-color: rgb(186, 186, 242);
+    color: brown;
+}
+
+.cuisine {
+    background-color: bisque;
+    color: indigo;
+}
+
+.slavic_Bazaar {
+    background-color: coral;
+    color: mediumblue;
+}
+
+a {
+    color: maroon;
+    font-size: 20px;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
