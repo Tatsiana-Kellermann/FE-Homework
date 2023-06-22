@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.footballField {
+    position: relative;
+}
+
+#player-img {
+    height: 500px;
+}
+
+.player1 {
+    position: absolute;
+    top: 410px;
+    right: 440px;
+}
+
+.player2 {
+    position: absolute;
+    left: 208px;
+    bottom: 100px;
+}
+
+
+#ball-img {
+    height: 100px;
+}
+
+.ball {
+    position: absolute;
+    top: 86%;
+    left: 12%;
+
+    animation-delay: 2s;
+    animation-name: goal-animation;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+}
+
+@keyframes goal-animation {
+    0% {
+        top: 86%;
+        left: 12%;
+    }
+
+    50% {
+        left: 76%;
+        top: 56%;
+    }
+
+    100% {
+        top: 45%;
+        left: 2%;
+    }
+}
