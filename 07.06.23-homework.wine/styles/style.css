@@ -1,0 +1,446 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url(http://armeniawine.am/wp-content/uploads/2013/12/paper.png);
+    background-repeat: repeat;
+}
+
+.header {
+    width: 100%;
+    height: 198px;
+}
+
+.language {
+    top: 10px;
+    right: 88px;
+    position: absolute;
+}
+
+li {
+    font-family: Ubuntu;
+    color: #444444;
+    display: inline-block;
+    font-weight: 800;
+    font-size: 12px;
+    line-height: 2;
+    padding: 0.5em 0.8em;
+}
+    
+    
+.last {
+    background-color: #b29d7f;
+    right: 89px;
+    width: 56px;
+    height: 52px;
+    position: absolute;
+}
+
+.sign {
+    display: block;
+    padding-top: 30px;
+}
+
+#wineLogo {
+   display: block;
+   margin: 0 auto;
+}
+
+.navbar {
+    background-color: #fff;
+    text-align: center;
+    max-width: 100%;
+    height: 50px;
+    margin-top: 30px;
+}
+
+.ararat{
+    background-size: cover;
+    background-position: center center;
+    height: 726px;
+}
+
+#ararat_img {
+    width: 100%;
+    height: 100%;
+}
+
+.welcome{
+    margin-top: -416px;
+    text-align: center;
+}
+
+.welcomeText{
+    color: rgba(255,255,255,1.00);
+    font-size: 60px;
+    font-weight: 800;
+}
+
+.symbol {
+    line-height: 60px;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+}
+
+.ararat_btn {
+    cursor: pointer;
+        font-size: 14px;
+        border-radius: 4px;
+        margin: 35px;
+        font-family: dejavu_sansbook;
+        color: rgb(255, 255, 255);
+        background-color: rgb(10, 10, 10);
+        padding: 12px 14px;
+        border-width: 0px;
+        letter-spacing: 2px;
+    }
+
+    .arrow {
+        margin-top: -12px;
+        margin-left: 604px;
+    }
+
+    .text-container {
+        height: 420px;
+        max-width: 980px;
+        margin: 0 auto;
+    
+    }
+
+
+    .empty_space {
+        height: 32px;
+    }
+
+    .about-us{
+        font-size: 36px;
+        height: 41px;
+        font-weight: bold;
+
+    }
+    .button_wrap{
+        margin-left: -39px;
+    }
+
+    .container_btn {
+        cursor: pointer;
+        font-size: 14px;
+        border-radius: 4px;
+        margin: 35px;
+        background-color: transparent;
+        padding: 12px 14px;
+        border-width: 3px;
+        letter-spacing: 2px;
+        width: 180px;
+        border-color:3px solid #111111;
+    }
+    .text_wrapper{
+        max-width: 653px;
+        margin-left: 298px;
+        margin-top: -154px;
+
+}
+    .text {
+        color: #666;
+        font-size: 18px;
+    }
+
+    .explore_armenia{
+        max-width: 980px;
+        margin-left: 120px;
+    }
+
+    .title {
+        font-size: 36px;
+        color: #000000;
+        font-family: georgia, palatino;
+    }
+
+    .explore_text{
+        margin-left: 610px;
+        margin-top: -444px;
+    }
+ .text_content{
+    font-size: 16px;
+    font-family: georgia, palatino;
+ }
+
+ .explore_text>p {
+    margin: 0 0 20px;
+ }
+ 
+.btn {
+    margin-left: 692px;
+    margin-top: 84px;
+}
+
+.wrapper_regions{
+   
+  text-align: center;
+}
+
+.regions{
+    height: 532px;
+}
+
+.regions_innertext {
+    font-size: 70px; 
+    font-family: Raleway;
+     color: #ffffff; 
+     font-weight: 900;
+     margin-top: -392px;
+}
+
+.text_terrior {
+    text-align: center; 
+    font-size: 20px;
+     font-weight: 400;
+      color: #ffffff;
+}
+
+.button_regions {
+    cursor: pointer;
+        font-size: 14px;
+        border-radius: 4px;
+        font-family: dejavu_sansbook;
+        color: rgb(255, 255, 255);
+        background-color: rgb(10, 10, 10);
+        padding: 12px 14px;
+        letter-spacing: 2px;
+        border-width: 0px;
+        margin-top: 30px;
+}
+
+.news_wrapper {
+height: 682px;
+width: 1263px;
+}
+
+.news{
+    font-size: 36px; 
+    font-family: georgia, palatino; color: #000000;
+     font-weight: 900;
+     margin-top: 112px;
+     margin-left: 138px;
+}
+
+.button_news {
+    margin-top: -644px;
+    margin-left: 100px;
+}
+
+.btn_news{
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 4px;
+    margin: 35px;
+    background-color: transparent;
+    padding: 12px 14px;
+    border-width: 3px;
+    letter-spacing: 2px;
+    width: 180px;
+    border-color:3px solid #111111;
+}
+
+.img_container {
+    width: 525px;
+    height: 627px;
+    margin-left: 613px;
+    margin-top: -174px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    
+}
+
+.expo_img {
+    width: 242px;
+    height: 427px
+}
+
+.image {
+    width: 242px;
+    height: 161px;
+}
+
+.prefooter {
+    height: 350px;
+    width: 631px;
+}
+   
+.prefooter_img {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 32px;
+}
+
+
+.button_prefooter {
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 4px;
+    font-family: dejavu_sansbook;
+    color: rgb(255, 255, 255);
+    background-color: rgb(10, 10, 10);
+    padding: 12px 14px;
+    letter-spacing: 2px;
+    border-width: 0px;
+    margin-top: 30px;
+    max-width: 172px;
+    margin-left: 236px;
+    
+}
+
+.text_prefooter {
+    font-size: 36px; 
+    font-family: Raleway;
+     color: #ffffff;
+      font-weight: 900;
+      text-align: center;
+    margin-top: -238px;
+}
+
+.logo_wrapper{
+    width: 1293px;
+    height: 136px;
+    padding-top: 20px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    background-color: #000000;
+    text-align: center;
+    margin-top: 104px;
+}
+
+.footer {
+    background: #262626;
+    color: #777;
+    
+}
+
+.footer-inner {
+background-image: url(../assets/footer-inner-bg.png);
+background-position: 0px -255px;
+background-color: #000;
+width: 100%;
+}
+
+.footer-box {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 26px;
+}
+
+.widget-title {
+    color: #fff;
+    font-weight: bold;
+    font-weight: 600;
+    font-size: 1.077em;
+    margin: 0 0 20px;
+    text-align: center;
+}
+
+.button_footer {
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 4px;
+    font-family: dejavu_sansbook;
+    color: rgb(255, 255, 255);
+    background-color: rgb(10, 10, 10);
+    padding: 12px 14px;
+    letter-spacing: 2px;
+    max-width: 172px;
+    margin-left: 84px;
+    border-color: white;
+    margin-bottom: 22px;
+}
+
+.textwidget>ul>li{
+    cursor: pointer; 
+}
+
+.textwidget ul{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.button-link {
+    color: white; 
+    font-size: 14px;
+     border-radius: 4px; 
+    width: 180px; 
+    text-transform: uppercase;
+     border-color: white;
+     background-color: rgba(0, 0, 0, 0);
+     
+}
+
+.footer-widget {
+    padding-bottom: 22px;
+}
+
+.widget-info {
+    text-align: center;
+    width: 270px;
+    margin: 0 auto;
+}
+
+.widget-info-adress {
+    padding-left: 2.308em;
+    position: relative;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+.widget-phone {
+    padding-left: 2.308em;
+    position: relative;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+.widget-email a {
+    color: #999;
+}
+
+.footer-bottom {
+    min-height: 40px;
+    background: #222;
+    color: #999;
+    font-size: 0.923em;
+}
+
+.footer-bottom-inner {
+    position: relative;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 0px 141px;
+}
+
+.content-info {
+    font-weight: 800;
+    font-size: 12px;
+    text-transform: capitalize;
+}
+
+.text-left {
+    text-align: left;
+    float: left;
+}
+
+.text-right {
+    text-align: right;
+    float: right;
+}
+
+.footer-text {
+    display: inline-block;
+    color: #999;
+}
+
+.content-info a {
+    color: #aaa;
+    text-decoration: none;
+}
